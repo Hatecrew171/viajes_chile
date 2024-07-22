@@ -9,9 +9,10 @@
     <title>Viajes Chile</title>
 </head>
 <body>
+    <!-- -->
     <main>
         <div class="row bg-black">
-            <nav class="navbar navbar-expand-lg z-1 position-absolute">
+            <nav class="navbar navbar-expand-lg z-1 position-fixed">
                 <div class="container-fluid mx-5">
                     <a class="navbar-brand" href="#">
                         <img src="assets/img/viajes.svg" alt="Bootstrap" width="30" height="24">
@@ -40,7 +41,7 @@
                     </div>
                 </div>
             </nav>
-            <div id="carouselExample" class="carousel slide z-n1">
+            <div id="myCarousel" class="carousel slide z-n1">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -52,11 +53,11 @@
                     <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
@@ -64,12 +65,12 @@
         </div>
     </main>
     <section>
-        <div class="row bg-black text-white text-center mx-auto pb-5">
-            <h1 class="my-5" id="quienessomos">Quiénes Somos?</h1>
+        <div class="row bg-black text-white text-center mx-auto pb-5" id="quienessomos">
+            <h1 class="my-5">Quiénes Somos?</h1>
             <div class="col-1"></div>
             <div class="col-10">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <div class="list-blue mx-auto" style="width: 18rem;">
                             <i class="fa-solid fa-plane"></i>
                         </div>
@@ -77,7 +78,7 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <div class="list-dark mx-auto" style="width: 18rem;">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
                         </div>      
@@ -85,7 +86,7 @@
                             <i class="fa-solid fa-mountain-sun"></i>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4">
                         <div class="list-blue mx-auto" style="width: 18rem;">
                             <i class="fa-solid fa-route"></i>
                         </div>
@@ -96,13 +97,15 @@
                 </div>
             </div>
             <div class="col-1"></div>
-            <h1 class="my-5" id="destacados">Destacados</h1>
-            <div class="row">
+        </div>
+        <div class="row bg-black text-white text-center mx-auto pb-5">
+            <div class="row mx-auto">
+                <h1 class="my-5" id="destacados">Destacados</h1>
                 <div class="col-1"></div>
                 <div class="col-10">
-                    <div class="row">
-                        <div class="col-3 mx-auto">
-                            <div class="border border-2 rounded-2">
+                    <div class="row row mx-auto">
+                        <div class="col-lg-3 mx-auto">
+                            <div class="border border-2 rounded-3">
                                 <div>
                                     <img src="assets/img/card1.jpg" class="img-top" alt="...">
                                 </div>
@@ -111,8 +114,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mx-auto">
-                            <div class="border border-2 rounded-2">
+                        <div class="col-lg-3 mx-auto">
+                            <div class="border border-2 rounded-3">
                                 <div>
                                     <img src="assets/img/card2.jpg" class="img-top" alt="...">
                                 </div>
@@ -121,8 +124,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mx-auto">
-                            <div class="border border-2 rounded-2">
+                        <div class="col-lg-3 mx-auto">
+                            <div class="border border-2 rounded-3">
                                 <div>
                                     <img src="assets/img/card3.jpg" class="img-top" alt="...">
                                 </div>
@@ -131,8 +134,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3 mx-auto">
-                            <div class="border border-2 rounded-2">
+                        <div class="col-lg-3 mx-auto">
+                            <div class="border border-2 rounded-3">
                                 <div>
                                     <img src="assets/img/card4.jpg" class="img-top" alt="...">
                                 </div>
@@ -179,9 +182,9 @@
         </div>
     </section>
     <footer>
-        <div class="row bg-blue">
+        <div class="row bg-blue row mx-auto">
             <div class="col-1"></div>
-            <div class="col-10 my-auto">
+            <div class="col-10 my-auto row mx-auto">
                 <h6>VIAJES CHILE</h6>
             </div>
             <div class="col-1"></div>
