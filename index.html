@@ -9,140 +9,184 @@
     <title>Viajes Chile</title>
 </head>
 <body>
-    <div class="row">
-        <nav class="navbar navbar-expand-lg z-1 position-absolute ms-5">
-            <div class="container-fluid me-5">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/viajes.svg" alt="Bootstrap" width="30" height="24">
-                  </a>
-                <a class="navbar-brand txth" href="#">
-                    Viajes Chile
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <main>
+        <div class="row bg-black">
+            <nav class="navbar navbar-expand-lg z-1 position-absolute">
+                <div class="container-fluid mx-5">
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/viajes.svg" alt="Bootstrap" width="30" height="24">
+                      </a>
+                    <a class="navbar-brand txth" href="#">
+                        Viajes Chile
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav navbar-nav-scroll ms-auto" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                            <a class="nav-link txth" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link txth" href="#quienessomos">Quienes Somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link txth" href="#destacados">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link txth" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div id="carouselExample" class="carousel slide z-n1">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
                 </button>
-                <div class="collapse navbar-collapse mx-auto" id="navbarSupportedContent">
-                    <ul class="navbar-nav navbar-nav-scroll ms-auto me-5" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                        <a class="nav-link txth" href="#inicio">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link txth" href="#quienessomos">Quienes Somos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link txth" href="#destacados">Destacados</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link txth" href="#contacto">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div id="carouselExample" class="carousel slide z-n1">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <div class="row bg-black text-white text-center mx-auto">
-        <h1 class="my-5">Quiénes Somos?</h1>
-        <div class="row">
-            <div class="col-4">
-                <div class="list-blue mx-auto" style="width: 18rem;">
-                    <i class="fa-solid fa-plane"></i>
-                </div>
-                <div class="list-dark mx-auto" style="width: 18rem;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="list-dark mx-auto" style="width: 18rem;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
-                </div>      
-                <div class="list-blue mx-auto" style="width: 18rem;">
-                    <i class="fa-solid fa-mountain-sun"></i>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="list-blue mx-auto" style="width: 18rem;">
-                    <i class="fa-solid fa-route"></i>
-                </div>
-                <div class="list-dark mx-auto" style="width: 18rem;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
-                </div>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
-        <h1 class="my-5">Destacados</h1>
-        <div class="row">
-            <div class="col-3">
-                <div>
-                    <img src="assets/img/card1.jpg" class="img-top" alt="...">
+    </main>
+    <section>
+        <div class="row bg-black text-white text-center mx-auto pb-5">
+            <h1 class="my-5" id="quienessomos">Quiénes Somos?</h1>
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="list-blue mx-auto" style="width: 18rem;">
+                            <i class="fa-solid fa-plane"></i>
+                        </div>
+                        <div class="list-dark mx-auto" style="width: 18rem;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="list-dark mx-auto" style="width: 18rem;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
+                        </div>      
+                        <div class="list-blue mx-auto" style="width: 18rem;">
+                            <i class="fa-solid fa-mountain-sun"></i>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="list-blue mx-auto" style="width: 18rem;">
+                            <i class="fa-solid fa-route"></i>
+                        </div>
+                        <div class="list-dark mx-auto" style="width: 18rem;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, dolorem placeat. Officia, maxime dolorum? Architecto harum necessitatibus itaque cumque incidunt praesentium. Numquam autem beatae modi voluptates illo cumque ratione quia!
+                        </div>
+                    </div>
                 </div>
-                <div class="list-blue mx-auto desc-img">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
-                </div>
-                
             </div>
-            <div class="col-3">
-                <div>
-                    <img src="assets/img/card2.jpg" class="img-top" alt="...">
+            <div class="col-1"></div>
+            <h1 class="my-5" id="destacados">Destacados</h1>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <div class="row">
+                        <div class="col-3 mx-auto">
+                            <div class="border border-2 rounded-2">
+                                <div>
+                                    <img src="assets/img/card1.jpg" class="img-top" alt="...">
+                                </div>
+                                <div class="mx-auto my-auto desc-img">
+                                    <p class="list-blue p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mx-auto">
+                            <div class="border border-2 rounded-2">
+                                <div>
+                                    <img src="assets/img/card2.jpg" class="img-top" alt="...">
+                                </div>
+                                <div class="mx-auto my-auto desc-img">
+                                    <p class="list-blue p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mx-auto">
+                            <div class="border border-2 rounded-2">
+                                <div>
+                                    <img src="assets/img/card3.jpg" class="img-top" alt="...">
+                                </div>
+                                <div class="mx-auto my-auto desc-img">
+                                    <p class="list-blue p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3 mx-auto">
+                            <div class="border border-2 rounded-2">
+                                <div>
+                                    <img src="assets/img/card4.jpg" class="img-top" alt="...">
+                                </div>
+                                <div class="mx-auto my-auto desc-img">
+                                    <p class="list-blue p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                    
                 </div>
-                <div class="list-blue mx-auto desc-img">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
+                <div class="col-1"></div>
+            </div>
+            <h1 class="my-5" id="contacto">Contacto</h1>
+            <div class="row mx-auto">
+                <div class="col-lg-1">
+
                 </div>
-                
-            </div><div class="col-3">
-                <div>
-                    <img src="assets/img/card3.jpg" class="img-top" alt="...">
+                <div class="col-lg-10">
+                    <div class="mb-3 text-start">
+                        <label for="name" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="name" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="subject" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="subject" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3 text-start">
+                        <label for="emailbody" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="emailbody" rows="3"></textarea>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <button id="emailbtn" type="button" class="btn btn-link btn-footer col-sm-12 border border-1 rounded cabin-btn text-decoration-none list-blue">
+                                Enviar
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="list-blue mx-auto desc-img">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
+                <div class="col-lg-1">
+
                 </div>
-                
-            </div><div class="col-3">
-                <div>
-                    <img src="assets/img/card4.jpg" class="img-top" alt="...">
-                </div>
-                <div class="list-blue mx-auto desc-img">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat reprehenderit sequi similique quo quae id atque consequatur obcaecati labore totam, ipsam magnam tempore, quisquam praesentium ea reiciendis voluptas maiores fuga.</p>
-                </div>
-                
             </div>
         </div>
-        <h1 class="my-5">Contacto</h1>
-        <div class="row">
-            <div class="mb-3 text-start">
-                <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="name" placeholder="name@example.com">
+    </section>
+    <footer>
+        <div class="row bg-blue">
+            <div class="col-1"></div>
+            <div class="col-10 my-auto">
+                <h6>VIAJES CHILE</h6>
             </div>
-            <div class="mb-3 text-start">
-                <label for="subject" class="form-label">Asunto</label>
-                <input type="text" class="form-control" id="subject" placeholder="name@example.com">
-            </div>
-            <div class="mb-3 text-start">
-                <label for="emailbody" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="emailbody" rows="3"></textarea>
-            </div>
+            <div class="col-1"></div>
         </div>
-    </div>
-        
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>

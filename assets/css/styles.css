@@ -12,6 +12,13 @@ a{
 .list-blue{
     background-color: #00a1e0;
     color: white;
+    margin: 0 auto;
+}
+
+.bg-blue{
+    background-color: #00a1e0;
+    color: white;
+    min-height: 10vh;
 }
 
 .bg-black{
@@ -19,9 +26,10 @@ a{
 }
 
 .img-top{
-    width: 25rem;
-    max-height: 25vh;
+    width: 100%;
+    max-height: 18vh;
 }
 .desc-img{
-    max-width: 25rem;
+    width: 100%;
+    min-height: 1rem;
 }
